@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+// server run 5000 port
 const port = process.env.PORT || 5000;
 const cors = require('cors')
 // Data loge in json file
@@ -22,11 +23,13 @@ app.get('/course/:id', (req, res) => {
     res.send(selectedCourse);
 
 })
-
+//clg show web-technology-is rouning
 app.listen(port, () => {
-    console.log("Web-technology-is Runing", port)
+    console.log("Web-technology- is Runing", port)
 })
 
 app.get('/course', (req, res) => {
     res.send(coureDetails);
 })
+
+//that is ?
