@@ -9,7 +9,7 @@ app.use(cors());
 
 const coureDetails = require('./Data/courseDetails.json')
 
-
+// server started
 app.get('/', (req, res) => {
     res.send("Server is Runing")
 })
