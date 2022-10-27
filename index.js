@@ -10,14 +10,10 @@ app.use(cors());
 const coureDetails = require('./Data/courseDetails.json')
 
 
-
 app.get('/', (req, res) => {
     res.send("Server is Runing")
 })
-//all course 
-// app.get('/courses', (req, res) => {
-//     res.send(courses)
-// })
+
 
 //coursess Id 
 app.get('/course/:id', (req, res) => {
