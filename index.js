@@ -10,7 +10,7 @@ app.use(cors());
 
 const coureDetails = require('./Data/courseDetails.json')
 
-// server started
+// server started our nodemon index.js
 app.get('/', (req, res) => {
     res.send("Server is Runing")
 })
